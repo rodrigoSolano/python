@@ -1,0 +1,2 @@
+Para no reiniciar el servidor cada vez que se realize un cambio se hace lo siguiente:
+"app.run(debug=True)"

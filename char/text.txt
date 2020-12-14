@@ -1,0 +1,169 @@
+0
+1
+00:00:00,660 --> 00:00:03,240
+Hey welcome to this new section.
+1
+
+2
+00:00:03,240 --> 00:00:11,100
+And in this section you will learn how to use pandas which is a very important python library and you
+2
+
+3
+00:00:11,100 --> 00:00:13,370
+really don't want to miss that.
+3
+
+4
+00:00:13,380 --> 00:00:15,170
+So what is pandas?
+4
+
+5
+00:00:15,180 --> 00:00:23,850
+Well pandas is a library of providing data structures and data analysis tools within Python or if the
+5
+
+6
+00:00:23,850 --> 00:00:30,300
+word tools confuses you, than you can say pandas is a library providing data structures and data analysis
+6
+
+7
+00:00:30,360 --> 00:00:31,340
+code.
+7
+
+8
+00:00:31,470 --> 00:00:38,880
+So basically pandas allows you to load data from different sources into python and then use python code
+8
+
+9
+00:00:38,910 --> 00:00:47,350
+to analyze those data and produce results which can be in the form of tables, text, and also visualization
+9
+
+10
+00:00:47,370 --> 00:00:54,930
+with the help of visualization libraries such as a Bokeh, Bokeh which is covered later in the
+10
+
+11
+00:00:54,930 --> 00:00:55,870
+course.
+11
+
+12
+00:00:55,890 --> 00:01:02,350
+So for now we'll focus on data without visualizing them and Pandas is great for that.
+12
+
+13
+00:01:02,400 --> 00:01:05,420
+So practically how do we use pandas?
+13
+
+14
+00:01:05,430 --> 00:01:09,550
+Well you learned how to open text files using Python
+14
+
+15
+00:01:09,560 --> 00:01:13,030
+build in file handling methods earlier in the course.
+15
+
+16
+00:01:13,050 --> 00:01:16,460
+Now what we open from text files was just plain text.
+16
+
+17
+00:01:16,900 --> 00:01:22,860
+But what if you want to load text files with data constructed on rows and columns?
+17
+
+18
+00:01:23,010 --> 00:01:29,340
+So things get a bit complicated but here is where Pandas comes into play so you can probably do that
+18
+
+19
+00:01:29,340 --> 00:01:34,200
+using building Python methods that we have learned the course.
+19
+
+20
+00:01:34,200 --> 00:01:37,710
+But to be more efficient and to be much more efficient.
+20
+
+21
+00:01:37,770 --> 00:01:44,560
+You need to have a high level library is not just pandas which is able to recognize such data structures
+21
+
+22
+00:01:44,790 --> 00:01:45,960
+automatically.
+22
+
+23
+00:01:45,960 --> 00:01:52,500
+So I use pandas for loading data from data mining activities such as web scrapping.
+23
+
+24
+00:01:52,680 --> 00:01:59,700
+So you scrap data from a Web site with Python and then store those data in pandas data frames so you
+24
+
+25
+00:01:59,700 --> 00:02:06,090
+use pandas to provide data structures for you in Python. I use pandas for loading data from Excel
+25
+
+26
+00:02:06,090 --> 00:02:13,620
+files and also use pandas for analyzing those data instead of using Excel. Excel can be good for analyzing
+26
+
+27
+00:02:13,620 --> 00:02:20,710
+a small table of data that fits in your screen, in your computer screen, but for data larger than that
+27
+
+28
+00:02:20,940 --> 00:02:27,870
+you really want to use code so you write Python code once and than you to use it with other data as well
+28
+
+29
+00:02:28,500 --> 00:02:37,050
+and you don't want to do selections and dragging and many other companies so operations that you normally
+29
+
+30
+00:02:37,060 --> 00:02:40,280
+doing in a graphical based program such as Excel.
+30
+
+31
+00:02:40,740 --> 00:02:48,650
+So code is the way to go if you want to be efficient with data and Python is great for that with pandas.
+31
+
+32
+00:02:48,900 --> 00:02:56,190
+So you really want to get a good hang of pandas and you will learn that in this section and also practice
+32
+
+33
+00:02:56,190 --> 00:03:02,350
+it with real world applications that we'll be building as you progress through the course.
+33
+
+34
+00:03:02,490 --> 00:03:07,350
+Let's go ahead and dive into some code now in the next lectures. See you!

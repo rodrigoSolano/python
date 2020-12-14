@@ -1,0 +1,26 @@
+Comandos basicos.
+
+Tres estados 
+Working directory
+Staging area
+repository
+
+"git init" -> se empieza a usar git,
+"git add<file>" -> agrega los archivos seleccionados a el staging area.
+"git add ." -> agrega todos los archivos del proyecto.
+"git brach" -> mustra las ramas
+"git brach <namerama>" -> crea una nueva rama.
+"git checkout <namerama> -> cambia de la rama actual a otra rama.
+"git status" -> ver el estado de los archivos.
+"git log" -> log del proyecto
+"git commit" -> pasar archivos del staging area al repository.
+"git commit -m "<message>"" -> hace un commit con un mensaje 
+"git push" -> subir el proyecto a un repositorio remoto.
+"git pull" -> traer cambios de los demas programadores.
+"git clone" -> hacer una copia del proyecto desde el servidor.
+"git checkout -- <filename>" -> revirte los cambios del archivo(sin commit).
+"git diff <filename>" -> muestra los cambios del archivo.
+"git remote add origin <url_repositorio>" -> agrega un origen para subir.
+
+
+El en archivo .gitignore se listan los archivos y carpetas para ignorarlos(no darles seguimiento).

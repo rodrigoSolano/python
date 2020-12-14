@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask App</title>
+</head>
+
+<body>
+    <!--Para ejecutar python en html, se una jinja-->
+    <!--Para poder pasar variables de python a HTML se usa esa sintaxis-->
+    <!--{% if num == 1 %}
+    <h1>Hola {{num}}</h1>
+    <h2>Hola 2</h2>
+    {% else %}
+    <h1>1</h1>
+    {% endif %}-->
+
+    {% for n in num %}
+    <h1>{{n}}</h1>
+    {% endfor %}
+</body>
+
+</html>

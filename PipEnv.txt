@@ -1,0 +1,21 @@
+pypl -> repositorio de modulos python
+pipfile.lock -> indica las versiones especificas de los paquetes que se utilizan en el proyecto
+"python --version" -> indica la version instalada de python
+"pipenv shell" -> inica un proyecto como un entorno virtual, entra en el entorno virtual    
+"pipenv --rm" -> borra un entorno virtual, tienes que estar en el directorio del mismo, no borra archivos
+"pipenv install 'namepackage'" -> instala un paquete en el entorno virtual activado
+"pipenv lock -r" -> muestra las dependencias del proyecto
+"pipenv uninstall 'namepackage'" -> desinstala un paquete del entorno virtual activado
+"pipenv install 'namepackage' --dev" -> instala un paquete en la seccion [dev-packages]
+"pipenv graph" -> muestra el arbol de dependencias
+"pipenv check" -> comprueba la seguridad de los paquetes instalados en el proyecto
+"pipenv install" -> instala los paquetes que se listan en el archivo Pipfile
+"pipenv lock" -> actualiza las dependencias del proyecto
+"pipenv install --ignore-pipfile" -> instala solo los paquetes del archivo PipFile.lock ignorando los demas"
+"pipenv install -r requirements.txt" -> instala los paquetes listados en el archivo requirements.txt 
+"exit" -> sale del entorno virtual
+
+El archivo requirements.txt lista los paquenes necesarios para el funcionamiento del proyecto
+'namepackage'=='version'
+
+En el archivo PipFile se listan las dependencias del proyecto
